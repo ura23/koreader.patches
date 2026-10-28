@@ -6,11 +6,6 @@ page in the reader — or a screenful in a full-screen list — as soon as a
 horizontal swipe has travelled **35 dp**, while the finger is still on the
 screen.
 
-It is the menu-less counterpart of `earlyturn.koplugin`: instead of registering
-touch zones it hooks the methods the existing widgets already call, so the
-reader's own menu and status strips, and any edge swipe you configured in
-*Taps and gestures*, keep their natural priority over page turning.
-
 ## Features
 
 - One turn per gesture — a release or swipe that follows an already handed

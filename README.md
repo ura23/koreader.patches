@@ -1,8 +1,8 @@
 <details>
 <summary><b>Early Turn — KOReader user patch</b></summary>
 
-A page turn should not wait for the finger to be lifted. This patch turns the
-page in the reader — or a screenful in a full-screen list — as soon as a
+This patch force turning the
+pages in the reader — or filemanager — as soon as a
 horizontal swipe has travelled **35 dp**, while the finger is still on the
 screen.
 
@@ -13,10 +13,6 @@ screen.
 - Works in the reader (page mode) and in every full-screen, paginated list:
   table of contents, bookmarks, history, collections, search results, OPDS,
   folder shortcuts and the file browser.
-- Respects your settings: scroll mode, page flipping, zoomed pages, popout
-  menus, `page_turns_disable_swipe`, and the swipe-to-go-back /
-  swipe-to-follow-link gestures are all left alone.
-- RTL and mirrored UI layouts behave exactly like the built-in swipe.
 
 ## Installation
 

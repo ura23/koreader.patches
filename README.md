@@ -1,4 +1,5 @@
-# Early Turn — KOReader user patch
+<details>
+<summary><b>Early Turn — KOReader user patch</b></summary>
 
 A page turn should not wait for the finger to be lifted. This patch turns the
 page in the reader — or a screenful in a full-screen list — as soon as a
@@ -54,3 +55,5 @@ out-of-range `step_dp` falls back to 35.
 KOReader with the user-patch mechanism (`koreader/patches/`, runlevel `2`) and
 a touch screen. Tested on a Kindle Paperwhite 11 running KOReader in
 landscape; nothing in the patch is Kindle-specific.
+
+</details>

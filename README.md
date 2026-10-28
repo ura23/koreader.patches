@@ -1,5 +1,3 @@
-# koreader.patches
-My patches
 # Early Turn — KOReader user patch
 
 A page turn should not wait for the finger to be lifted. This patch turns the

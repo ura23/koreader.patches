@@ -17,7 +17,6 @@ screen.
 ## Installation
 
 1. Copy `2-earlyturn.lua` to `koreader/patches/` on your device.
-2. Enable it in **Tools → More tools → Patch management**.
 
 There is no menu of its own: the patch is switched on and off from that
 same list.
@@ -40,11 +39,5 @@ return {
 
 Edit the file to taste; a missing file is recreated with the defaults, and an
 out-of-range `step_dp` falls back to 35.
-
-## Requirements
-
-KOReader with the user-patch mechanism (`koreader/patches/`, runlevel `2`) and
-a touch screen. Tested on a Kindle Paperwhite 11 running KOReader in
-landscape; nothing in the patch is Kindle-specific.
 
 </details>
